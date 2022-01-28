@@ -38,3 +38,6 @@ Once the training is complete, the model is stored in the same folder with name 
 `prediction.py` file consists of code required for inference. The path to trained model should be assigned to `loaded_model` variable. And the list of folders for which prediction need to be calculated should be assigned to `path` variable.
 
 The code will calculate predictions for each experimental images and generate a csv file which will be saved in the same folder with filename same as folder filename. A seperate csv file will be generated for each folder.
+
+## License
+This tool is available under the GNU General Public License (GPL) (https://www.gnu.org/licenses/gpl-3.0.en.html) and the LGPL (https://www.gnu.org/licenses/lgpl-3.0.en.html).
